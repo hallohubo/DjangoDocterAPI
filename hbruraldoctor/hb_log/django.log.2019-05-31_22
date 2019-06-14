@@ -1,0 +1,12 @@
+[INFO][2019-05-31 22:00:25,789][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][validatePort][67] > xingming:<QueryDict: {'Imei': ['2B60FABA-37AA-4EA6-B3B6-11F608653689'], 'Source': ['1'], 'Version': ['1.0.0'], 'Key': ['20190523161129-67729'], 'Sign': ['ef48f5950b1f04ad76513454a4a30c63']}> logging successful
+[INFO][2019-05-31 22:01:07,550][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][151] > api:validateView error can only concatenate str (not "int") to str
+[INFO][2019-05-31 22:04:16,548][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][151] > api:validateView error 系统受到重放攻击
+[INFO][2019-05-31 22:06:56,127][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][151] > api:validateView error 系统受到重放攻击
+[INFO][2019-05-31 22:10:24,460][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][143] > api:registerPort delete done imei:2B60FABA-37AA-4EA6-B3B6-11F608653689 key:20190523161129-67729
+[INFO][2019-05-31 22:10:24,461][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][registerPort][203] > api_validateView error 请求超时
+[INFO][2019-05-31 22:11:32,490][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][validatePort][67] > xingming:<QueryDict: {'Imei': ['2B60FABA-37AA-4EA6-B3B6-11F608653689'], 'Source': ['1'], 'Version': ['1.0.0'], 'Key': ['20190523161129-67729'], 'Sign': ['ef48f5950b1f04ad76513454a4a30c63']}> logging successful
+[INFO][2019-05-31 22:11:35,846][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][143] > api:registerPort delete done imei:2B60FABA-37AA-4EA6-B3B6-11F608653689 key:20190523161129-67729
+[INFO][2019-05-31 22:11:35,848][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][registerPort][203] > api_validateView error 请求超时
+[INFO][2019-05-31 22:12:50,896][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][validatePort][67] > xingming:<QueryDict: {'Imei': ['2B60FABA-37AA-4EA6-B3B6-11F608653689'], 'Source': ['1'], 'Version': ['1.0.0'], 'Key': ['20190523161129-67729'], 'Sign': ['ef48f5950b1f04ad76513454a4a30c63']}> logging successful
+[INFO][2019-05-31 22:12:52,885][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][143] > api:registerPort delete done imei:2B60FABA-37AA-4EA6-B3B6-11F608653689 key:20190523161129-67729
+[INFO][2019-05-31 22:12:52,888][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][registerPort][203] > api_validateView error 请求超时

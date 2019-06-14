@@ -1,0 +1,50 @@
+[INFO][2019-05-29 13:59:01,702][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][validatePort][65] > xingming:<QueryDict: {'Imei': ['2B60FABA-37AA-4EA6-B3B6-11F608653689'], 'Source': ['1'], 'Version': ['1.0.0'], 'Key': ['20190523161129-67729'], 'Sign': ['ef48f5950b1f04ad76513454a4a30c63']}> logging successful
+[INFO][2019-05-29 14:23:47,394][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][130] > api:validateView 请求超时 20190523161129-67729
+[INFO][2019-05-29 14:24:02,625][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][130] > api:validateView 请求超时 20190523161129-67729
+[INFO][2019-05-29 14:24:27,008][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][130] > api:validateView 请求超时 20190523161129-67729
+[INFO][2019-05-29 14:28:59,318][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][131] > api:validateView 请求超时 20190523161129-67729
+[INFO][2019-05-29 14:31:43,772][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][136] > 服务器受到攻击,请求已经过期的记录。 key=20190523161129-67729
+[INFO][2019-05-29 14:33:19,369][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][138] > 服务器受到攻击,请求已经过期的记录。 key=20190523161129-67729
+[INFO][2019-05-29 14:47:58,877][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][139] > 服务器受到攻击,请求已经过期的记录。 key=20190523161129-67729
+[INFO][2019-05-29 14:56:17,610][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][139] > 服务器受到攻击,请求已经过期的记录。 key=20190523161129-67729
+[INFO][2019-05-29 15:00:43,209][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][140] > 服务器受到攻击,请求已经过期的记录。 key=20190523161129-67729
+[INFO][2019-05-29 15:04:10,780][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][144] > server error:ValidatePost表出现重复的数据  key=20190523161129-67729
+[INFO][2019-05-29 15:41:23,679][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][validatePort][65] > xingming:<QueryDict: {'Imei': ['2B60FABA-37AA-4EA6-B3B6-11F608653689'], 'Source': ['1'], 'Version': ['1.0.0'], 'Key': ['20190523161129-67729'], 'Sign': ['ef48f5950b1f04ad76513454a4a30c63']}> logging successful
+[INFO][2019-05-29 15:42:11,481][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][145] > server error:ValidatePost表出现重复的数据  key=20190523161129-67729
+[INFO][2019-05-29 15:46:41,424][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][146] > server error:ValidatePost表出现重复的数据  key=20190523161129-67729
+[INFO][2019-05-29 15:47:33,884][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][146] > server error:ValidatePost表出现重复的数据  key=20190523161129-67729
+[INFO][2019-05-29 15:51:01,495][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][148] > server error:ValidatePost表出现重复的数据  key=20190523161129-67729
+[INFO][2019-05-29 16:30:18,894][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][validatePort][65] > xingming:<QueryDict: {'Imei': ['2B60FABA-37AA-4EA6-B3B6-11F608653689'], 'Source': ['1'], 'Version': ['1.0.0'], 'Key': ['20190523161129-67729'], 'Sign': ['ef48f5950b1f04ad76513454a4a30c63']}> logging successful
+[INFO][2019-05-29 16:48:05,716][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][validatePort][65] > xingming:<QueryDict: {'Imei': ['2B60FABA-37AA-4EA6-B3B6-11F608653689'], 'Source': ['1'], 'Version': ['1.0.0'], 'Key': ['20190523161129-67729'], 'Sign': ['ef48f5950b1f04ad76513454a4a30c63']}> logging successful
+[INFO][2019-05-29 17:15:11,110][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][152] > server error:ValidatePost表出现重复的数据  key=20190523161129-67729
+[INFO][2019-05-29 17:17:24,854][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][152] > server error:ValidatePost表出现重复的数据  key=20190523161129-67729
+[INFO][2019-05-29 17:19:41,326][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][157] > The system seems to be under attack  key=20190523161129-67729 
+[INFO][2019-05-29 17:20:12,334][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][163] > The system seems to be under attack caused by sign value.  errorkey=20190523161129-67729
+[INFO][2019-05-29 17:21:32,935][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][163] > The system seems to be under attack caused by sign value.  errorkey=20190523161129-67729
+[INFO][2019-05-29 17:23:11,754][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][163] > The system seems to be under attack caused by sign value.  errorkey=20190523161129-67729
+[INFO][2019-05-29 17:23:51,706][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][163] > The system seems to be under attack caused by sign value.  errorkey=20190523161129-67729
+[INFO][2019-05-29 17:24:23,850][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][163] > The system seems to be under attack caused by sign value.  errorkey=20190523161129-67729
+[INFO][2019-05-29 17:30:51,511][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][152] > server error:ValidatePost表出现重复的数据  key=20190523161129-67729
+[INFO][2019-05-29 17:32:58,529][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][163] > The system seems to be under attack caused by sign value.  errorkey=20190523161129-67729
+[INFO][2019-05-29 17:37:17,032][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][172] > sign value is not correctly.  key=20190523161129-67729
+[INFO][2019-05-29 17:39:16,480][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][173] > sign value is not correctly.  key=20190523161129-67729
+[INFO][2019-05-29 17:39:36,216][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][173] > sign value is not correctly.  key=20190523161129-67729
+[INFO][2019-05-29 17:40:31,632][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][173] > sign value is not correctly.  key=20190523161129-67729
+[INFO][2019-05-29 17:41:49,738][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][173] > sign value is not correctly.  key=20190523161129-67729
+[INFO][2019-05-29 17:42:40,285][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][173] > sign value is not correctly.  key=20190523161129-67729
+[INFO][2019-05-29 17:44:56,538][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][173] > sign value is not correctly.  key=20190523161129-67729
+[INFO][2019-05-29 17:49:08,230][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][registerPort][256] > api:validateView error 'QuerySet' object has no attribute 'save'
+[INFO][2019-05-29 17:52:43,465][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][148] > 服务器受到攻击,请求已经过期的记录。 key=20190523161129-67729
+[INFO][2019-05-29 17:54:12,769][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][registerPort][258] > api:validateView error 'QuerySet' object has no attribute 'save'
+[INFO][2019-05-29 17:55:19,269][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][183] > api:validateView error tuple index out of range
+[INFO][2019-05-29 17:57:35,747][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][183] > api:validateView error tuple index out of range
+[INFO][2019-05-29 17:59:46,785][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][183] > api:validateView error tuple index out of range
+[INFO][2019-05-29 18:00:13,145][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][183] > api:validateView error tuple index out of range
+[INFO][2019-05-29 18:00:55,254][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][183] > api:validateView error tuple index out of range
+[INFO][2019-05-29 18:01:22,155][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][184] > api:validateView error tuple index out of range
+[INFO][2019-05-29 18:01:54,521][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][184] > api:validateView error tuple index out of range
+[INFO][2019-05-29 18:02:43,172][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][184] > api:validateView error tuple index out of range
+[INFO][2019-05-29 18:03:01,243][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][184] > api:validateView error tuple index out of range
+[INFO][2019-05-29 18:03:33,092][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][184] > api:validateView error tuple index out of range
+[INFO][2019-05-29 18:04:03,780][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][wrapper][148] > 服务器受到攻击,请求已经过期的记录。 key=20190523161129-67729
+[INFO][2019-05-29 18:04:21,392][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][registerPort][259] > api:validateView error 'QuerySet' object has no attribute 'save'
