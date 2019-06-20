@@ -1,1 +1,0 @@
-[INFO][2019-05-28 11:46:30,417][/Users/kobo/Desktop/hbruraldoctor/app_login/views.py][views.py][validatePort][60] > api:validateView sign参数有误 <QueryDict: {'Imei': ['2B60FABA-37AA-4EA6-B3B6-11F608653689'], 'Source': ['1'], 'Version': ['1.0.0'], 'Key': ['20190523161129-67729'], 'Sign': ['ef48f5950b1f04ad76513454a4a30c63']}>
