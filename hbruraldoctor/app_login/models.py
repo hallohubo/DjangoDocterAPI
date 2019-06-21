@@ -3,7 +3,7 @@ from django.db import models
 # Create your models here.
 from django.db import models
 from django.contrib.auth.models import AbstractUser
-from django.utils import timezone
+
 
 # Create your models here.
 class ValidatePost(models.Model):
@@ -14,7 +14,7 @@ class ValidatePost(models.Model):
     key = models.CharField(max_length=30)
     date = models.DateTimeField(editable=False, auto_now_add=True)
     seed = models.CharField(max_length=65)
-    # secondSeed = models.CharField(max_length=65)
+
     class Meta:
         # db_table = 'user_table'
         verbose_name = '用户请求日志'
@@ -31,7 +31,7 @@ class UserModel(AbstractUser):
     userPhone = models.CharField(max_length=15, verbose_name='手机号', null=True)
     userIdcard = models.CharField(max_length=50, verbose_name='身份证号', null=True)
     userPassword = models.CharField(max_length=50, verbose_name='密码', null=True)
-    is_active = models.BooleanField(verbose_name='是否禁止', default=True)
+    is_active = models.BooleanField(verbose_name='激活状态', default=True)
 
 
     class Meta:

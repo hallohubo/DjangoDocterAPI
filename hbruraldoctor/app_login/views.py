@@ -245,9 +245,7 @@ def registerUser(request):
 @permission_classes((AllowAny,))
 @log_in
 def publishKey(request):
-
     response_data = {}
-
     try:
         pub = settings.RSA_PUBLIC_KEY
         print('publiKey:' + pub)
@@ -266,6 +264,7 @@ def publishKey(request):
 
         else:
             raise Exception['系统错误：publicKey can not find']
+            print("系统错误：publicKey can not find")
 
     except Exception as e:
         logger.info("api_validateView error %s", e)
@@ -317,30 +316,26 @@ def loginAccount(request):
     print('000')
     try:
         article = request.data
-        encrypted = article.get("password")
-        mobilename = article.get('mobile')
-        print('article')
+        username = article.get('mobile')
+        password = article.get('password')
+        print('article', username, password )
 
-        ar = {'encryptedPW': encrypted, 'mobileName': mobileName}
+        ar = {'encryptedPW': password, 'mobileName': username,}
         print('ar:')
-        for key, value in ar.items():
-            print('ar:99')
-            print(len(value))
-            if not len(value) > 0:
-                logger.info("参数:%s异常" % key)
-                logger.debug("参数:%s异常" % key)
 
-                response_data['ErrorDesc'] = '参数错误' + key
-                response_data['status'] = HTTP_400_BAD_REQUEST
-                return
-
-        userModel = UserModel.objects.values('userPhone', 'userPassword').filter(userPhone=mobilename)
+        userModel = UserModel.objects.values('userPhone', 'userPassword').filter(userPhone=username)
         print('type00:%s'%type(userModel))
         print(userModel)
         print('length:%s' % len(userModel))
-        if not userModel.exists() or not len(userModel) > 0:
+        if len(userModel) > 1:
+            logger.info('系统错误，手机号用户名重复:%s' % username)
+            logger.debug('系统错误，手机号用户名重复:%s' % username)
+            response_data['ErrorDesc'] = '系统错误'
+            response_data['status'] = HTTP_400_BAD_REQUEST
+            return
+        if not userModel or len(userModel) == 0:
             print('用户名有误')
-            response_data['ErrorDesc'] = '用户名:%s 不存在' % mobilename
+            response_data['ErrorDesc'] = '用户名:%s 不存在' % username
             response_data['status'] = HTTP_400_BAD_REQUEST
             return
         userPhoneNumber = userModel[0].get('userPhone')
@@ -350,19 +345,24 @@ def loginAccount(request):
         keyDER = b64decode(privateKey)
         rsakey = RSA.importKey(keyDER)
         cipher = Cipher_pkcs1_v1_5.new(rsakey)
-        random_generator = Random.new().read
-        text = cipher.decrypt(base64.b64decode(encrypted), None)
+        text = cipher.decrypt(base64.b64decode(password), None)
         text = text.decode('utf8')
         print('text:'+text)
+
+        if username is None or password is None:
+            response_data['ErrorDesc'] = 'Please provide both username and password'
+            response_data['status'] = HTTP_404_NOT_FOUND
+            return
+
         if not userPhonePassword == text:
             response_data['ErrorDesc'] = "密码错误"
             response_data['status'] = HTTP_400_BAD_REQUEST
             raise Exception('密码错误')
 
         if userPhonePassword == text:
-            logger.info('api:registerPort succesful telphone:%s' % mobilename)
-            logger.debug('api:registerPort succesful telphone:%s' % mobilename)
-            userModel = UserModel.objects.values('userPhone', 'nickName', 'userGender', 'userIdcard', 'userAddress').filter(userPhone=mobileName)
+            logger.info('api:registerPort succesful telphone:%s' % username)
+            logger.debug('api:registerPort succesful telphone:%s' % username)
+            userModel = UserModel.objects.values('userPhone', 'nickName', 'userGender', 'userIdcard', 'userAddress').filter(userPhone=username)
             response_data['Result'] = userModel[0]
             response_data['status'] = HTTP_200_OK
             return
